@@ -1,0 +1,11 @@
+.venv/
+.env
+
+.DS_Store
+.swp
+
+__pycache__
+
+data
+
+test.py
