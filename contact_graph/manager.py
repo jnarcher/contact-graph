@@ -1,5 +1,5 @@
-from .graph import Graph
-from .components import (
+from graph import Graph
+from components import (
     FirstName,
     LastName,
     MiddleName,
