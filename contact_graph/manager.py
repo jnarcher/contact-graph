@@ -93,3 +93,6 @@ class ContactManager:
             s = f"{s} {last.value}"
 
         return s
+    
+    def get_link_metadata(self, from_contact: Contact, to_contact: Contact) -> LinkMetadata:
+        return self._graph.metadata_from_to(from_contact, to_contact)
