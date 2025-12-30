@@ -1,11 +1,14 @@
-from graph import Graph
-from components import (
+# manager.py
+
+from .graph import Graph
+from .components import (
     FirstName,
     LastName,
     MiddleName,
     Nicknames,
     Groups,
 )
+
 from collections import defaultdict
 from typing import TypeVar, Any
 
